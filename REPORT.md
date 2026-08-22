@@ -53,7 +53,7 @@ No UI framework or state-management library is used by design — the app stays 
 ## 3. Project Structure
 
 ```
-GitHub repo: akilagimhana2005-cmyk/Tickit-App   (private)
+GitHub repo: Akila-G05/Tickit-App   (private)
 │
 ├── main      → REPORT.md, README.md
 ├── backend   → TickitServer/   (Java 17 · embedded Tomcat · Hibernate)
@@ -186,7 +186,7 @@ User types "note" in SearchBar (debounce 300 ms)
 **Backend** (requires local MySQL with database `tickit2`):
 
 ```bash
-git clone https://github.com/akilagimhana2005-cmyk/Tickit-App.git
+git clone https://github.com/Akila-G05/Tickit-App.git
 git checkout backend
 cd TickitServer
 mvn clean package exec:java        # starts on http://localhost:8080

@@ -4,8 +4,8 @@ A full-stack note-taking application with a separated architecture.
 
 | Branch | Project | Stack |
 |---|---|---|
-| [`backend`](https://github.com/akilagimhana2005-cmyk/Tickit-App/tree/backend) | `TickitServer` — REST API | Java 17, embedded Tomcat, Hibernate 6, MySQL |
-| [`frontend`](https://github.com/akilagimhana2005-cmyk/Tickit-App/tree/frontend) | `TickitClient` — SPA client | React 19, Vite |
+| [`backend`](https://github.com/Akila-G05/Tickit-App/tree/backend) | `TickitServer` — REST API | Java 17, embedded Tomcat, Hibernate 6, MySQL |
+| [`frontend`](https://github.com/Akila-G05/Tickit-App/tree/frontend) | `TickitClient` — SPA client | React 19, Vite |
 | `main` (this branch) | Documentation | Full project report (`REPORT.md`) |
 
 ## Quick start

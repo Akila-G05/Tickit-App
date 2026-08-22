@@ -71,7 +71,13 @@ Database settings live in `src/main/resources/hibernate.cfg.xml`:
 <property name="hibernate.connection.password">******</property>
 ```
 
-Prerequisite: a running local MySQL instance with the database `tickit2` created:
+Prerequisite: a running local MySQL instance. Import the bundled dump (`database/Tickit.sql`) — it creates the `tickit2` database, the `tasks` table, and sample data:
+
+```bash
+mysql -u root -p < database/Tickit.sql
+```
+
+Or create just the empty database and let Hibernate auto-generate the schema:
 
 ```sql
 CREATE DATABASE IF NOT EXISTS tickit2;
